@@ -26,3 +26,10 @@ class PaintingSpider(scrapy.Spider):
             print("Artist: ", artist)
             print("Size: ", size)
             print("-----------------------------------")
+
+            yield{
+                "Title":title,
+                "Artist":artist,
+                "Size":size
+
+            }

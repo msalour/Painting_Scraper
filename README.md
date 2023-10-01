@@ -1,13 +1,14 @@
-Scrapy based Projects
----------------------
+# Scrapy based Projects
+------------------------
 
-Requirements:
+## Requirements:<br>
 
-1-Python 3
-2-Scrapy framework
+1-Python 3<br>
+2-Scrapy framework<br>
 
-pip3 install scrapy
+pip3 install scrapy<br>
 
-Usage:
-1-cd painting_scraper
-2-scrapy crawl painting -o output.json
+## Usage:<br>
+
+1-cd painting_scraper<br>
+2-scrapy crawl painting -o output.json<br>
